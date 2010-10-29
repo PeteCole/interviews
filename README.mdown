@@ -1,10 +1,10 @@
 # October 2010 - <a name="#task"></a>Coding task
 
-In [NHS Evidence](http://www.evidence.nhs.uk "NHS Evidence homepage"), we interface with the [FAST](http://www.microsoft.com/enterprisesearch/en/us/fast-customer.aspx) search engine. This indexes content to provide relevant search results to a query. One aspect of indexing is [stemming](http://en.wikipedia.org/wiki/Stemming "Article on Stemming via wikipedia.org").  The following task demonstrates how stemming can influence the indexing process.
+In [NHS Evidence](http://www.evidence.nhs.uk "NHS Evidence homepage"), we interface with the [FAST](http://www.microsoft.com/enterprisesearch/en/us/fast-customer.aspx) search engine. FAST indexes content to provide relevant search results to a query. One aspect of indexing is [stemming](http://en.wikipedia.org/wiki/Stemming "Article on Stemming via wikipedia.org").  The following task demonstrates how stemming can influence the indexing process.
 
-Please look at the following string and acceptance criteria:
+Please look at the following text and acceptance criteria:
 
-Process this string
+Process this text
 
 > Friends are friendlier friendlies that are friendly and classify the friendly classification class. Flowery flowers flow through following the flower flows
 
@@ -27,4 +27,4 @@ Please write code to process the text to determine the frequency of the stemmed 
 * Use any language you are comfortable with; prefer c#, ruby or javascript
 * Prove your program meets the acceptance criteria
 
-Please fork repository and send a pull request to submit on [github](http://github.com) or email edward.hiley-at-nice.org.uk by end of Wednesday 3rd November.
+Please fork the repository and send a pull request to submit on [github](http://github.com) or email edward.hiley-at-nice.org.uk by end of Wednesday 3rd November.
