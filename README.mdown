@@ -4,7 +4,9 @@ In [NHS Evidence](http://www.evidence.nhs.uk "NHS Evidence homepage"), we interf
 
 Please look at the following string and acceptance criteria:
 
-    string gibberish1 = @"Friends are friendlier friendlies that are friendly and classify the friendly classification class. Flowery flowers flow through following the flower flows";
+Process this string
+
+> Friends are friendlier friendlies that are friendly and classify the friendly classification class. Flowery flowers flow through following the flower flows
 
 Acceptance criteria
 
@@ -17,7 +19,7 @@ Acceptance criteria
     frequency("friendly")                 = 4
     frequency("classes")                  = 1
    
-Please write code to process the string `gibberish1` to determine the frequency of the stemmed word given in the acceptance criteria.  It should take around two hours.
+Please write code to process the text to determine the frequency of the stemmed word given in the acceptance criteria.  You should expect to spend around two hours on this task.
 
 ## The rules
 
