@@ -1,0 +1,34 @@
+# October 2010 - <a name="#task"></a>Coding task
+
+In [NHS Evidence](http://www.evidence.nhs.uk, "NHS Evidence homepage"), we interface with a Fast search engine. This indexes content to provide relevant search results to a query. One aspect of indexing is [stemming](http://en.wikipedia.org/wiki/Stemming,  "Article on Stemming via wikipedia.org").  The following task demonstrates how stemming can influence the indexing process.
+
+Please look at the following class stub and acceptance criteria notes:
+
+    public class Documents
+    {
+        const string gibberish1 = @"Friends are friendlier friendlies that are friendly and classify the friendly classification class. Flowery flowers flow through following the flower flows";
+
+        /*
+        * Acceptance criteria
+        * 
+        * frequency("following")                - 1
+        * frequency("flow")                     - 2
+        * frequency("classification")           - 1
+        * frequency("class")                    - 1
+        * frequency("flower")                   - 3
+        * frequency("friend")                   - 4
+        * frequency("friendly")                 - 4
+        * frequency("classes")                  - 1
+        * 
+        */
+    }
+
+Please write code to process the string `gibberish1` to determine the frequency of the stemmed word given in the acceptance criteria.  It should take around two hours.
+
+## The rules
+
+* Don't use stemming libraries, your code only has to satisfy the acceptance criteria
+* Use any language you are comfortable with, prefer c# or ruby
+* Demonstrate the acceptance criteria with discrete tests
+
+Please submit code to edward.hiley-at-nice.org.uk by Wednesday 3rd November, or put on [github](http://github.com) and email the repository url.
