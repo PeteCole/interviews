@@ -6,16 +6,16 @@ Please look at the following string and acceptance criteria:
 
     string gibberish1 = @"Friends are friendlier friendlies that are friendly and classify the friendly classification class. Flowery flowers flow through following the flower flows";
 
-## Acceptance criteria
+Acceptance criteria
 
-    frequency("following")                - 1
-    frequency("flow")                     - 2
-    frequency("classification")           - 1
-    frequency("class")                    - 1
-    frequency("flower")                   - 3
-    frequency("friend")                   - 4
-    frequency("friendly")                 - 4
-    frequency("classes")                  - 1
+    frequency("following")                = 1
+    frequency("flow")                     = 2
+    frequency("classification")           = 1
+    frequency("class")                    = 1
+    frequency("flower")                   = 3
+    frequency("friend")                   = 4
+    frequency("friendly")                 = 4
+    frequency("classes")                  = 1
    
 Please write code to process the string `gibberish1` to determine the frequency of the stemmed word given in the acceptance criteria.  It should take around two hours.
 
