@@ -1,6 +1,6 @@
 # October 2010 - <a name="#task"></a>Coding task
 
-In [NHS Evidence](http://www.evidence.nhs.uk, "NHS Evidence homepage"), we interface with a Fast search engine. This indexes content to provide relevant search results to a query. One aspect of indexing is [stemming](http://en.wikipedia.org/wiki/Stemming,  "Article on Stemming via wikipedia.org").  The following task demonstrates how stemming can influence the indexing process.
+In [NHS Evidence](http://www.evidence.nhs.uk "NHS Evidence homepage"), we interface with the [FAST](http://www.microsoft.com/enterprisesearch/en/us/fast-customer.aspx) search engine. This indexes content to provide relevant search results to a query. One aspect of indexing is [stemming](http://en.wikipedia.org/wiki/Stemming "Article on Stemming via wikipedia.org").  The following task demonstrates how stemming can influence the indexing process.
 
 Please look at the following class stub and acceptance criteria notes:
 
@@ -27,8 +27,8 @@ Please write code to process the string `gibberish1` to determine the frequency 
 
 ## The rules
 
-* Don't use stemming libraries, your code only has to satisfy the acceptance criteria
-* Use any language you are comfortable with, prefer c# or ruby
-* Demonstrate the acceptance criteria with discrete tests
+* Don't use stemming libraries; your code only has to satisfy the acceptance criteria
+* Use any language you are comfortable with; prefer c#, ruby or javascript
+* Prove your program meets the acceptance criteria
 
 Please submit code to edward.hiley-at-nice.org.uk by Wednesday 3rd November, or put on [github](http://github.com) and email the repository url.
