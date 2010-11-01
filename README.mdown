@@ -23,7 +23,7 @@ Please write code to process the text to determine the frequency of the stemmed 
 
 ## The rules
 
-* Don't use stemming libraries; your code only has to satisfy the acceptance criteria
+* Don't use stemming libraries
 * Use any language you are comfortable with; prefer c#, ruby or javascript
 * Prove your program meets the acceptance criteria
 
